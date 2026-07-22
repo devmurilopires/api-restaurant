@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "knex": "knex"
+    "knex": "tsx ./node_modules/knex/bin/cli.js"
   },
   "author": "Murilo",
   "license": "ISC",
